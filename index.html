@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Toggl: Time Tracking Software, Project Planning &amp; Hiring Tools
+  </title>
+
+  <!-- Font Awesome -->
+  <script src="https://use.fontawesome.com/31e7cce63e.js"></script>
+
+  <!-- Bootstrap File -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+  <!-- CSS style sheet -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Font -->
+
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Figtree&display=swap" rel="stylesheet" />
+
+  <!-- JS FIle -->
+  <!-- <script src="style.js"></script> -->
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="https://www.golangprojects.com/logos/toggl-logo.png" alt="" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Mission</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Working at Toggl</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link we-are-hiring" href="#">WE'RE HIRING</a>
+          </li>
+        </ul>
+
+        <!-- Right aligned part -->
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Log in
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link btn-try-toggl we-are-hiring" href="">Try Toggl</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Title Page -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <!-- Time tracking that's easy, powerful, <em class="and-text"> and</span> frictionless. -->
+        <h1 class="title">
+          Time tracking that's easy, powerful, <em> and</em> frictionless.
+        </h1>
+        <p class="title-subtext">
+          Time tracking software to boost performance and get paid for every
+          billable minute. An intuitive tool that makes time tracking painless
+          for the entire team.
+        </p>
+        <div class="title-btn">
+          <button type="button" class="btn btn-secondary btn-lg">
+            Start tracking for Free
+          </button>
+          <p>Or explore Toggl Track</p>
+        </div>
+        <div class="countries">
+          <p>TRUSTED BY OVER 5 MILLION USERS ACROSS 120 COUNTRIES</p>
+          <img
+            src="https://public-assets.toggl.com/b/static/5dd908f54f24fb325e24d90c5856d815/5029e/brands-mixed-desktop-light.avif"
+            width="900px" alt="" />
+        </div>
+      </div>
+      <div class="col-lg-6 title-img">
+        <img src="https://public-assets.toggl.com/b/static/605d33ced3b99d7dace97455c9ee2b41/3813a/screen-track-app.avif"
+          alt="" />
+      </div>
+    </div>
+
+    <!-- time-tracking-section -->
+  </div>
+  <!-- End of Title page -->
+
+  <div class="time-tracking-section">
+    <p class="time-tracking-section-text">
+      Time tracking is good for business. But it’s also a dreaded chore.
+    </p>
+
+    <p class="time-tracking-section-text2">
+      Skip the timesheets and get your team the best time tracker that gets
+      the job done for you.
+    </p>
+    <p class="love-text">
+      Here's why teams <span id="love">love</span> Track:
+    </p>
+
+    <div class="card-holder">
+      <div class="card">
+        <div class="card1">
+          <div class="card1-components-holder">
+            <img class="card1-img"
+              src="https://public-assets.toggl.com/b/static/illo-flower-clock-a5c3884200f1f3953cdc060a95f070b7.png"
+              alt="" />
+            <p class="card-text-all">
+              Record 25% more billable hours and improve profitability
+            </p>
+            <p class="card-paragraph">
+              No more guesstimates and lost billables. Track your time
+              accurately, improve operational efficiency—and ultimately,
+              maximize your profits.
+            </p>
+          </div>
+        </div>
+
+        <div class="card2">
+          <div class="card1-components-holder">
+            <img class="card2-img"
+              src="https://public-assets.toggl.com/b/static/illo-toggl-devices-d06587f566d4b463024dab3bfb702d9a.png"
+              alt="" />
+            <p class="card-text-all">
+              Multiple time tracking apps and over 100+ integrations
+            </p>
+            <p class="card-paragraph">
+              Connect your entire stack, and track time wherever you work—on
+              the web app, on your browser, desktop, mobile or even your
+              watch.
+            </p>
+          </div>
+        </div>
+        <div class="card3">
+          <div class="card3-components-holder">
+            <img class="card3-img"
+              src="https://public-assets.toggl.com/b/static/illo-hearthands-ec83cef093ffc7f52b05d2064dfa7bc7.png"
+              alt="" />
+            <p class="card-text-all">
+              Get employee buy-in with time tracking that puts privacy on
+              priority
+            </p>
+            <p class="card-paragraph">
+              Get accurate data with an anti-surveillance time tracking
+              solution that your employees are happy to use.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="features">
+      <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam adipisci voluptatem quae exercitationem, amet iusto error! Consequuntur officia rem qui perspiciatis. Voluptates, perferendis. Nam tempora soluta obcaecati consectetur sit inventore?</p> -->
+      <img src="https://public-assets.toggl.com/b/static/5b2ed5c55efcabba627f7913b0afc3ee/3b04a/badges-track.avif"
+        alt="" />
+      <p class="features-line">5 million+ users have said yes to Track</p>
+      <div class="title-btn1">
+        <button type="button" class="btn btn-secondary btn-lg">
+          Start tracking for Free
+        </button>
+        <p>Or explore Toggl Track</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section3 begins -->
+  <div class="section3">
+    <div class="section3-holder">
+      <div class="section3-title">
+        <h1>
+          Time tracking software for all your <br />
+          productivity and profitability needs
+        </h1>
+      </div>
+      <div class="section3-buttons">
+        <button type="button" class="btn btn-primary section3-button section3-button1" data-bs-toggle="button">
+          Employee Time Tracking
+        </button>
+        <button type="button" class="btn btn-primary section3-button" data-bs-toggle="button">
+          Billing and invoicing
+        </button>
+        <button type="button" class="btn btn-primary section3-button" data-bs-toggle="button">
+          Project Budgeting
+        </button>
+        <p>Or explore Toggl Track</p>
+      </div>
+      <div class="section3-row-col-section">
+        <div class="row">
+          <div class="col-lg-4 col1">
+            <h3 class="section3-first-text">
+              Boost accountability <br />
+              across teams
+            </h3>
+            <p class="section3-second-text">
+              Stay informed, accountable, and transparent. Make payroll and
+              quarterly reporting easy with intuitive time tracking and
+              accurate time reports for growing teams.
+            </p>
+            <p class="section3-third-text">
+              Learn more about employee time Tracking
+            </p>
+            <div class="section3-fourth-text-div">
+              <p class="section3-fourth-text">
+                "Toggl Track offers full control to our team members to
+                accurately track their time. It is extremely easy and
+                intuitive, as well as non-invasive." <br />
+                <span class="section3-companyName">
+                  Newlogic, Software Consultancy</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-8 col2">
+            <div class="section3-img-section">
+              <img class="section3-img"
+                src="https://public-assets.toggl.com/b/static/b706dba0b3d69d33569b8970080d42f2/f01ef/employee-time-tracking.avif"
+                alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section4 begins -->
+  <div class="section4">
+    <div class="section4-holder">
+
+      <!-- First Part and First row -->
+      <div class="first-part">
+        <div class="row">
+          <div class="col-lg-8">
+            <h1 class="section4-first-part-heading">
+              Toggl builds tools to make your work life more efficient. Toggl Track is our time tracker. <br> <br> <span
+                class="more">But we have more.</span>
+            </h1>
+          </div>
+          <div class="col-lg-4">
+            <img class="section4-img"
+              src="https://public-assets.toggl.com/b/static/03cf381c7c94ffe9326bbb32b7481456/40a4d/illo-balloons.avif"
+              alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="section4-part2">
+        <!-- Row1 -->
+        <div class="row section4-row1">
+          <!-- Column 1 -->
+          <div class="col-lg-6 section4-col1">
+            <p class="section4-part2-text1">WANT A SIMPLE TOOL TO MANAGE ALL YOUR PRODUCTS IN ONE PLACE?</p>
+            <h2 class="section4-part2-text2">Effortless work planning for teams with <span class="toggl-plan">Toggl
+                Plan</span></h2>
+            <p class="section4-part2-text3">Visually plan, track, and deliver work projects without the last-minute rush
+              and stress. With Toggl Plan's delightfully simple drag-and-drop timelines, you can:</p>
+
+            <div class="toggl-plan1">
+              <img class="section4-part2-img1"
+                src="icon-thumbs-up.avif"
+                alt="">
+              <p class="section4-part2-img-text">Create <b>effective work schedules</b> without clunky spreadsheets or
+                complex software</p>
+            </div>
+
+            <div class="toggl-plan2">
+              <img class="section4-part2-img2"
+                src="https://public-assets.toggl.com/b/static/e83005b4aab3c4761e494350425e59a7/94df6/icon-done.avif"
+                alt="">
+              <p class="section4-part2-img-text">Stay on schedule and <b>get tasks done</b> by deadlines</p>
+            </div>
+
+
+            <div class="toggl-plan3">
+              <img class="section4-part2-img3"
+                src="https://public-assets.toggl.com/b/static/c972b0bbef5e93d76ebed43fc3fd8fa5/4be15/icon-eye.avif"
+                alt="">
+              <p class="section4-part2-img-text"><b>Get visibility </b> into your team's availability and workload</p>
+            </div>
+          </div> <!-- End of Column1-->
+
+          <div class="col-lg-6 section4-col2">
+            <img class="section4-img1"
+              src="https://public-assets.toggl.com/b/static/43b257ff0539aeee55368c8e6ccc79c1/a7119/screen-plan.avif"
+              alt="">
+            <h5 class="section4-bottom-text">Using spreadsheets to manage multiple projects was a disaster. With Toggl
+              Plan, we can easily keep track of ten or more projects at a time.
+              </h5>
+              <br><span class="Chanel-Kennedy"> Chanel Kennedy, Manager at Boiler Room</span>
+          </div>
+
+        </div>
+        <div  class="section4-bottom-part">
+          <h2>See what better work planning looks like:</h2>
+          <button class="btn btn-primary" type="button">Button</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End of section4 -->
+
+
+  <!-- Section5 begins -->
+
+
+  <div class="section5">
+    <div class="section5-holder">
+        <h1>Run your business at full efficiency.
+        <br> Learn with Toggl.</h1>
+        <p class="section5-title-text">While there's no one right way to do things, there are many tried-and-tested <br> ways. Check out our resources and our blog for tips and tricks on better work.</p>
+        
+      <div class="section5-card">
+      <div class="row">
+        <!-- Card section begins -->
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="img-box">
+              <img class="section5-img" src="https://public-assets.toggl.com/b/static/63b2e9f49f3b3dc8bfa935dc712157a2/a43bf/resource-blog-b.avif" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="img-box">
+             <img class="section5-img" src="https://public-assets.toggl.com/b/static/74015962f3632c409f8ca31f9225cc1b/d2717/resource-timesheet-templates.avif" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <div class="img-box">
+            <img class="section5-img" src="https://public-assets.toggl.com/b/static/cab4b6b884f02aaf20fd686a40077657/d2717/cs-team-fullstacklabs.avif" class="card-img-top" alt="...">
+          </div>
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End of cards -->
+
+      </div> 
+      <!-- End of row-->
+      </div>
+    </div>
+  </div>
+
+
+  <!-- End of section5 -->
+  
+  <!-- footer begins -->
+
+  <div class="footer">
+    <p><img class="companyLogo" src="https://www.golangprojects.com/logos/toggl-logo.png" width="5%" alt=""></p>
+    <div class="row">
+      <div class="col-lg-2 footer-col1">
+        <h5>TOGGL GLOBAL</h5>
+        <ul>
+          <li>
+            Blog
+          </li>
+          <li>
+            Our Mission
+          </li>
+          <li>
+            Working at Toggl4
+          </li>
+          <li>
+            Legal Terms
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-2 footer-col2">
+        <h5>TOGGL TRACK</h5>
+        <ul>
+          <li>
+            Features
+          </li>
+          <li>
+            Pricing
+          </li>
+          <li>
+            Integrations
+          </li>
+          <li>
+            Case Studies
+          </li>
+          <li>
+            Desktop Apps
+          </li>
+          <li>
+            Mobile Apps
+          </li>
+          <li>
+            Anti-surveillance
+          </li>
+          <li>
+            Knowledge Base
+          </li>
+          <li>
+            Timesheet Templates
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-2 footer-col3">
+        <h5>TOGGL PLAN</h5>
+        <ul>
+          <li>
+            Product
+          </li>
+          <li>
+            Pricing
+          </li>
+          <li>
+            Solutions
+          </li>
+          <li>
+            Customer Stories
+          </li>
+          <li>
+            Project Management
+          </li>
+          <li>
+            Knowledge Base
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-2 footer-col4">
+        <h5>TOGGL HIRE</h5>
+        <ul>
+          <li>
+            Product
+          </li>
+          <li>
+            Pricing
+          </li>
+          <li>
+            Skills Tests
+          </li>
+          <li>
+            Customer Stories
+          </li>
+          <li>
+            Candidate Experience
+          </li>
+          <li>
+            Manifesto
+          </li>
+          <li>
+            Knowledge Base
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-2 footer-col5">
+        <h5>RESOURCES</h5>
+        <ul>
+          <li>  
+            Fun & Games
+          </li>
+          <li>
+            Time Management Hub
+          </li>
+          <li>
+            Work From Home Hub
+          </li>
+          <li>
+            Business Resources
+          </li>
+          <li>
+            Productivity Resources
+          </li>
+          <li>
+            Blueprint Magazine
+          </li>
+          <li>
+            Timesheets Magazine
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End of footer -->
+  <div class="yellow-footer">
+    <p class="rights-reserved-text">© 2023 Toggl. All rights reserved.</p>
+  </div>
+  </div>
+</body>
+
+</html>
